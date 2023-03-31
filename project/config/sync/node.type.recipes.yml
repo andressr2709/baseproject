@@ -1,0 +1,18 @@
+uuid: c67052ed-7d16-4a60-835b-7b54ac95b5a9
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Recipes
+type: recipes
+description: 'Delicious recipes made with a lot of love.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true
