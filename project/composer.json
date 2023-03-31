@@ -11,6 +11,10 @@
     "repositories": [
         {
             "type": "composer",
+            "url": "https://asset-packagist.org"
+        },
+        {
+            "type": "composer",
             "url": "https://packages.drupal.org/8"
         }
     ],
