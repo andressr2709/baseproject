@@ -1,0 +1,22 @@
+uuid: 2e985150-3781-426b-bc15-9c0679c368c3
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.chefs
+id: node.chefs.status
+field_name: status
+entity_type: node
+bundle: chefs
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

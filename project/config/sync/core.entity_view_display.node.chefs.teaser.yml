@@ -1,0 +1,34 @@
+uuid: 779d0bbb-7362-4d18-a7f4-ae9cfae6943d
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.chefs.body
+    - field.field.node.chefs.field_cuisine
+    - field.field.node.chefs.field_image
+    - node.type.chefs
+  module:
+    - text
+    - user
+id: node.chefs.teaser
+targetEntityType: node
+bundle: chefs
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_cuisine: true
+  field_image: true

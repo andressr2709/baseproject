@@ -1,0 +1,23 @@
+uuid: 53de1ea4-3e07-4961-badb-e1c065ae9669
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.chefs
+  module:
+    - text
+id: node.chefs.body
+field_name: body
+entity_type: node
+bundle: chefs
+label: Biography
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary
