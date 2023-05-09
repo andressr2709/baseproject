@@ -1,0 +1,15 @@
+uuid: ee57caf6-7bfc-4a55-adb5-6fba408a1433
+langcode: en
+status: true
+dependencies: {  }
+name: image_style_lg
+label: 'Image Style Lg'
+effects:
+  9d703b55-d96e-45f9-b694-a081892b996f:
+    uuid: 9d703b55-d96e-45f9-b694-a081892b996f
+    id: image_scale
+    weight: 1
+    data:
+      width: 580
+      height: 580
+      upscale: false

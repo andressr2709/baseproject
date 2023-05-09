@@ -1,0 +1,15 @@
+uuid: 9feb1d33-051d-438b-ae77-d59a93987af2
+langcode: en
+status: true
+dependencies: {  }
+name: image_style_sm
+label: 'Image Style Sm'
+effects:
+  220015ad-174f-4538-9d3a-de7917ecee6d:
+    uuid: 220015ad-174f-4538-9d3a-de7917ecee6d
+    id: image_scale
+    weight: 1
+    data:
+      width: 480
+      height: 480
+      upscale: false

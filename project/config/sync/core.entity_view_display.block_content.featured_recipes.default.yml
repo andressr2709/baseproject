@@ -1,0 +1,22 @@
+uuid: 527cc0d2-9cdb-4bb4-a6c7-ffc30813463a
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.featured_recipes
+    - field.field.block_content.featured_recipes.field_featured_recipes
+id: block_content.featured_recipes.default
+targetEntityType: block_content
+bundle: featured_recipes
+mode: default
+content:
+  field_featured_recipes:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: teaser
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

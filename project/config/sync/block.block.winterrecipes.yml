@@ -1,0 +1,33 @@
+uuid: 3a329840-66b1-49e9-a07e-8c508a020c7e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:featured_recipes:94d455f7-f0af-46ee-9c76-65468e0b2e4e'
+  module:
+    - block_content
+    - node
+  theme:
+    - olivero
+id: winterrecipes
+theme: olivero
+region: sidebar
+weight: 0
+provider: null
+plugin: 'block_content:94d455f7-f0af-46ee-9c76-65468e0b2e4e'
+settings:
+  id: 'block_content:94d455f7-f0af-46ee-9c76-65468e0b2e4e'
+  label: 'Winter recipes'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      recipes: recipes

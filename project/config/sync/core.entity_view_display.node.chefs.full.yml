@@ -1,8 +1,9 @@
-uuid: d8cfeb22-17a7-44b9-941b-0090615c7e1c
+uuid: dcb9fd2f-2a74-4b65-9b82-65fcc6246f37
 langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.node.full
     - field.field.node.chefs.body
     - field.field.node.chefs.field_cuisine
     - field.field.node.chefs.field_image
@@ -11,16 +12,15 @@ dependencies:
     - image
     - text
     - user
-id: node.chefs.default
+id: node.chefs.full
 targetEntityType: node
 bundle: chefs
-mode: default
+mode: full
 content:
   body:
-    type: text_trimmed
+    type: text_default
     label: hidden
-    settings:
-      trim_length: 300
+    settings: {  }
     third_party_settings: {  }
     weight: 101
     region: content
