@@ -1,0 +1,10 @@
+uuid: 128cd0ec-90d1-4cca-b316-c627aa92e2a9
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.image_banner
+label: 'Image Banner'
+targetEntityType: media
+cache: true

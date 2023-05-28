@@ -1,9 +1,9 @@
-uuid: 3a329840-66b1-49e9-a07e-8c508a020c7e
+uuid: 23905f8b-5842-4907-9fea-fb038cb7c51e
 langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:featured_recipes:94d455f7-f0af-46ee-9c76-65468e0b2e4e'
+    - 'block_content:featured_recipes:10b57c7a-748c-4c8d-b57b-7b971947c3cb'
   module:
     - block_content
     - node
@@ -14,10 +14,10 @@ theme: olivero
 region: sidebar
 weight: 0
 provider: null
-plugin: 'block_content:94d455f7-f0af-46ee-9c76-65468e0b2e4e'
+plugin: 'block_content:10b57c7a-748c-4c8d-b57b-7b971947c3cb'
 settings:
-  id: 'block_content:94d455f7-f0af-46ee-9c76-65468e0b2e4e'
-  label: 'Winter recipes'
+  id: 'block_content:10b57c7a-748c-4c8d-b57b-7b971947c3cb'
+  label: 'Winter Recipes'
   label_display: visible
   provider: block_content
   status: true

@@ -1,0 +1,15 @@
+uuid: dbc98396-d216-4a1a-94ca-ab0a55b1ae41
+langcode: en
+status: true
+dependencies: {  }
+name: banner_images_2600x2600
+label: 'Banner Images 2600x2600'
+effects:
+  18e0b29f-3e1b-4d68-8864-09e2b19d1606:
+    uuid: 18e0b29f-3e1b-4d68-8864-09e2b19d1606
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 2600
+      height: 2600
+      anchor: right-bottom

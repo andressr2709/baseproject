@@ -1,0 +1,15 @@
+uuid: e811b9d7-9786-4433-8e7b-23dd76e2ea15
+langcode: en
+status: true
+dependencies: {  }
+name: 325x325_max
+label: '325x325 max'
+effects:
+  f77be325-6bb3-432b-8767-946f97b980a3:
+    uuid: f77be325-6bb3-432b-8767-946f97b980a3
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 325
+      height: 325
+      anchor: left-top
